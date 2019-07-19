@@ -12,11 +12,10 @@ class Anagram_and_Antigram
     for x in @new_input do
       testarray = [x]
       p testarray
-      if testarray.include?( ["a","e","i","o","u"] ) do
+      if testarray.include?( "a" )
         return "this is a word"
-      end
-      # else
-      #   return "this is not a word"
+      else
+        return "this is not a word"
       end
     end
   end
