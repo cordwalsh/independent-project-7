@@ -13,6 +13,6 @@ describe('#Anagram_and_Antigram') do
   end
   it("should check to see if a word is an antigram") do
     result = Anagram_and_Antigram.new('third')
-    expect(result.antigram("red", "poo")).to(eq("this is an antigram"))
+    expect(result.antigram("red", "tai")).to(eq("this is an antigram"))
   end
 end
