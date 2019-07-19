@@ -49,8 +49,8 @@ class Anagram_and_Antigram
     @new_input4 = @input4.delete(" ")
     c = @new_input3.split("")
     d = @new_input4.split("")
-    p c
-    p d
+    # p c
+    # p d
     for x in c do
       if d.include?(x)
         return "this is not an anagram"

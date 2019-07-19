@@ -26,8 +26,8 @@ The application will test if a word is an antigram
 - Output: "this is an antigram"
 
 The application will test if multiple words are anagrams or antigrams
-- Input: ""
-- Output: ""
+- Input: "my name is cord, my name is john"
+- Output: "this is not an anagram"
 
 
 
